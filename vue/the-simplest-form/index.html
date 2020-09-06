@@ -1,12 +1,8 @@
 <!DOCTYPE html>
 
 <!-- Bootstrap framework  -->
-<link
-  rel="stylesheet"
-  href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
-  integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
-  crossorigin="anonymous"
-/>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+  integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
 
 <div id="app">
   <div class="container">
@@ -14,11 +10,7 @@
       <div class="form-group">
         <label for="email">Email</label>
         <!-- v-bind syntactic sugar is just the colon (:) -->
-        <input
-          type="email"
-          v-model="email"
-          class="form-control form-control-lg"
-        />
+        <input type="email" v-model="email" class="form-control form-control-lg" />
       </div>
       <!-- v-on syntactic sugar is just the at (@)  -->
       <button type="submit" @click.prevent="process" class="btn btn-primary">
