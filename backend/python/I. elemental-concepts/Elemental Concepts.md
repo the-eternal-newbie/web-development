@@ -1,5 +1,10 @@
 # Python elemental concepts
 
+## Variables
+
+### Instance variables
+### Class variables
+
 ## Methods
 
 ### Decorators
@@ -113,3 +118,7 @@ In summary:
 1. Instance Methods: The most common method type. Able to access data and properties unique to each instance.
 2. Static Methods: Cannot access anything else in the class. Totally self-contained code.
 3. Class Methods: Can access limited methods in the class. Can modify class specific details.
+
+## Polymorphism
+
+## Introspection
