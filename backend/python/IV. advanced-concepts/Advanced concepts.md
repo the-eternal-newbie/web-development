@@ -1,4 +1,4 @@
 ## Iterations
 ## Generators
 ## Closures
-## Decorator
+## Decorators
