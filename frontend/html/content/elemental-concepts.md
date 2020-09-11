@@ -1,3 +1,5 @@
+<div align="right"><a href="../HTML.md"> <h3> Back </h3> </a></div>
+
 # Elemental Concepts
 
 ## A simple HTML Document
@@ -42,6 +44,128 @@ Tags can be nested. For example:
 ```html
 <div><p>This paragraph is nested inside a division</p></div>
 ```
+## Block & block elements
+
+Every HTML element has a default display value, depending on what type of element it is. There are two display values: block and inline.
+
+### Block elements
+A block-level element always starts on a new line and takes up the full width available (stretches out to the left and right as far as it can).
+
+#### The `<div>` element
+The `<div>` element is often used as a container for other HTML elements. The `<div>` element has no required attributes, but style, class and id are common. When used together with CSS, the `<div>` element can be used to style blocks of content:
+
+```html
+<div style="background-color:black;color:white;padding:20px;">
+  <h2>London</h2>
+  <p>London is the capital city of England. It is the most populous city in the United Kingdom, with a metropolitan area of over 13 million inhabitants.</p>
+</div> 
+```
+<div style="background-color:black;color:white;padding:20px;">
+  <h2>London</h2>
+  <p>London is the capital city of England. It is the most populous city in the United Kingdom, with a metropolitan area of over 13 million inhabitants.</p>
+</div>
+
+</br>
+Here are the block-level elements in HTML:
+
+<table>
+<tbody>
+  <tr>
+    <td>&lt;address&gt;</td>
+    <td>&lt;article&gt;</td>
+    <td>&lt;aside&gt;</td>
+    <td>&lt;blockquote&gt;</td>
+    <td>&lt;canvas&gt;</td>
+    <td>&lt;dd&gt;</td>
+    <td>&lt;div&gt;</td>
+    <td>&lt;dl&gt;</td>
+    <td>&lt;dt&gt;</td>
+    <td>&lt;fieldset&gt;</td>
+  </tr>
+  <tr>
+    <td>&lt;figcaption&gt;</td>
+    <td>&lt;figure&gt;</td>
+    <td>&lt;footer&gt;</td>
+    <td>&lt;form&gt;</td>
+    <td>&lt;h1&gt;-&lt;h6&gt;</td>
+    <td>&lt;header&gt;</td>
+    <td>&lt;hr&gt;</td>
+    <td>&lt;li&gt;</td>
+    <td>&lt;main&gt;</td>
+    <td>&lt;nav&gt;</td>
+  </tr>
+  <tr>
+    <td>&lt;noscript&gt;</td>
+    <td>&lt;ol&gt;</td>
+    <td>&lt;p&gt;</td>
+    <td>&lt;pre&gt;</td>
+    <td>&lt;section&gt;</td>
+    <td>&lt;table&gt;</td>
+    <td>&lt;tfoot&gt;</td>
+    <td>&lt;ul&gt;</td>
+    <td>&lt;video&gt;</td>
+  </tr>
+</tbody>
+</table>
+</br>
+
+### Inline elements
+An inline element does not start on a new line and it only takes up as much width as necessary.
+
+#### The `<span>` element
+The `<span>` element is an inline container used to mark up a part of a text, or a part of a document. The `<span>` element has no required attributes, but style, class and id are common. When used together with CSS, the `<span>` element can be used to style parts of the text:
+
+```html
+<p>My mother has <span style="color:blue;font-weight:bold">blue</span> eyes and my father has <span style="color:darkolivegreen;font-weight:bold">dark green</span> eyes.</p>
+```
+
+<p>My mother has <span style="color:blue;font-weight:bold">blue</span> eyes and my father has <span style="color:darkolivegreen;font-weight:bold">dark green</span> eyes.</p>
+
+</br>
+Here are the block-level elements in HTML:
+
+<table>
+<tbody>
+  <tr>
+    <td>&lt;a&gt;</td>
+    <td>&lt;abbr&gt;</td>
+    <td>&lt;acronym&gt;</td>
+    <td>&lt;b&gt;</td>
+    <td>&lt;bdo&gt;</td>
+    <td>&lt;big&gt;</td>
+    <td>&lt;br&gt;</td>
+    <td>&lt;button&gt;</td>
+    <td>&lt;cite&gt;</td>
+    <td>&lt;code&gt;</td>
+  </tr>
+  <tr>
+    <td>&lt;dfn&gt;</td>
+    <td>&lt;em&gt;</td>
+    <td>&lt;i&gt;</td>
+    <td>&lt;img&gt;</td>
+    <td>&lt;input&gt;</td>
+    <td>&lt;kbd&gt;</td>
+    <td>&lt;label&gt;</td>
+    <td>&lt;map&gt;</td>
+    <td>&lt;object&gt;</td>
+    <td>&lt;output&gt;</td>
+  </tr>
+  <tr>
+    <td>&lt;q&gt;</td>
+    <td>&lt;samp&gt;</td>
+    <td>&lt;script&gt;</td>
+    <td>&lt;select&gt;</td>
+    <td>&lt;small&gt;</td>
+    <td>&lt;span&gt;</td>
+    <td>&lt;strong&gt;</td>
+    <td>&lt;textarea&gt;</td>
+    <td>&lt;time&gt;</td>
+    <td>&lt;tt&gt;</td>
+    <td>&lt;var&gt;</td>
+  </tr>
+</tbody>
+</table>
+</br>
 
 ## DOM
 
