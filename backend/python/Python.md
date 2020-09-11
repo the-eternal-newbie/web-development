@@ -2,6 +2,14 @@
 
 Python is a dynamic, interpreted (bytecode-compiled) language. There are no type declarations of variables, parameters, functions, or methods in source code. This makes the code short and flexible, and you lose the compile-time type checking of the source code. Python tracks the types of all values at runtime and flags code that does not make sense as it runs. 
 
+## Content
+* [I. Elemental concepts](content/elemental-concepts.md)
+* [II. Exceptions](content/exceptions.md)
+* [III. Threads](content/threads.md)
+* [IV. Advanced concepts](content/advanced-concepts.md)
+* [V. Functional Programming](content/functional-programming.md)
+* [VI. Regular expressions](content/regular-expressions.md)
+
 ## The Zen of Python
 
 Long time Pythoneer Tim Peters succinctly channels the BDFL's guiding principles for Python's design into 20 aphorisms, only 19 of which have been written down.
@@ -27,6 +35,8 @@ If the implementation is hard to explain, it's a bad idea.
 If the implementation is easy to explain, it may be a good idea.
 Namespaces are one honking great idea -- let's do more of those!
 ```
+
+## Interesting sites
 
 ## References
 * Originally posted to comp.lang.python/python-list@python.org under a thread called "The Way of Python" https://groups.google.com/d/msg/comp.lang.python/B_VxeTBClM0/L8W9KlsiriUJ
