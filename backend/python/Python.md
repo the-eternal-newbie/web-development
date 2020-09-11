@@ -40,4 +40,4 @@ Namespaces are one honking great idea -- let's do more of those!
 
 ## References
 * Originally posted to comp.lang.python/python-list@python.org under a thread called "The Way of Python" https://groups.google.com/d/msg/comp.lang.python/B_VxeTBClM0/L8W9KlsiriUJ
-* Python Introduction  |  Python Education  |  Google Developers. (2020). Retrieved 9 September 2020, from https://developers.google.com/edu/python/introduction
+* Python Introduction | Python Education | Google Developers. (2020). Retrieved 9 September 2020, from https://developers.google.com/edu/python/introduction
