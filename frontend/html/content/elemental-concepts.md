@@ -167,6 +167,12 @@ Here are the block-level elements in HTML:
 </table>
 </br>
 
+## [ARIA](https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA)
+
+Accessible Rich Internet Applications (ARIA) is a set of attributes that define ways to make web content and web applications (especially those developed with JavaScript) more accessible to people with disabilities.
+
+It supplements HTML so that interactions and widgets commonly used in applications can be passed to assistive technologies when there is not otherwise a mechanism. For example, ARIA enables accessible navigation landmarks in HTML4, JavaScript widgets, form hints and error messages, live content updates, and more. 
+
 ## DOM
 
 The Document Object Model (**DOM**) is the data representation of the objects that comprise the structure and content of a document on the web. It is a programming interface for HTML and XML documents. It represents the page so that programs can change the document structure, style, and content. The DOM represents the document as nodes and objects. That way, programming languages can connect to the page.

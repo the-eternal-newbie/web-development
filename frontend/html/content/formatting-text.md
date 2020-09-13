@@ -126,6 +126,44 @@ A description list is a list of terms, with a description of each term. The `<dl
 
 ## Quotes
 
+### Block quotations
+
+The HTML `<blockquote>` element defines a section that is quoted from another source. Browsers usually indent `<blockquote>` elements.
+
+```html
+<p>Here is a quote from WWF's website:</p>
+<blockquote cite="http://www.worldwildlife.org/who/index.html">
+For 50 years, WWF has been protecting the future of nature.
+The world's leading conservation organization,
+WWF works in 100 countries and is supported by
+1.2 million members in the United States and
+close to 5 million globally.
+</blockquote> 
+```
+<p>Here is a quote from WWF's website:</p>
+<blockquote cite="http://www.worldwildlife.org/who/index.html">
+For 50 years, WWF has been protecting the future of nature.
+The world's leading conservation organization,
+WWF works in 100 countries and is supported by
+1.2 million members in the United States and
+close to 5 million globally.
+</blockquote> 
+
+### Short quotations
+
+The HTML `<q>` tag defines a short quotation. Browsers normally insert quotation marks around the quotation.
+
+```html
+<p>WWF's goal is to: <q>Build a future where people live in harmony with nature.</q></p> 
+```
+> <p>WWF's goal is to: <q>Build a future where people live in harmony with nature.</q></p> 
+
 ## Dates and times
+
+```html
+<time datetime="2025-05-08-">May 8</time>
+```
+> <time datetime="2025-05-08-">May 8</time>
+
 ## Code, pre, and br
 ## Superscripts, subscripts, and small text
