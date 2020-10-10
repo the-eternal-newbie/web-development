@@ -160,10 +160,41 @@ The HTML `<q>` tag defines a short quotation. Browsers normally insert quotation
 
 ## Dates and times
 
+The HTML `<time>` element represents a specific period in time. It may include the `datetime` attribute to translate dates into machine-readable format, allowing for better search engine results or custom features such as reminders.
+
+It may represent one of the following:
+
+- A time on a 24-hour clock.
+- A precise date in the Gregorian calendar (with optional time and timezone information).
+- A valid time duration.
+
 ```html
 <time datetime="2025-05-08-">May 8</time>
 ```
 > <time datetime="2025-05-08-">May 8</time>
 
 ## Code, pre, and br
+
+The HTML `<code>` element displays its contents styled in a fashion intended to indicate that the text is a short fragment of computer code. By default, the content text is displayed using the user agent's default monospace font. 
+
+The HTML `<pre>` element represents preformatted text which is to be presented exactly as written in the HTML file. The text is typically rendered using a non-proportional (**"monospace"**) font. Whitespace inside this element is displayed as written.
+
+The HTML `<br>` element produces a line break in text (carriage-return). It is useful for writing a poem or an address, where the division of lines is significant.
+
+```html
+<p>This is the <code>Panel</code> constructor:</p>
+<pre><code>function Panel(element, canClose, closeHandler) {
+  this.element = element;
+  this.canClose = canClose;
+  this.closeHandler = function () { if (closeHandler) closeHandler() };
+}</code></pre>
+```
+
+> <p>This is the <code>Panel</code> constructor:</p>
+> <pre><code>function Panel(element, canClose, closeHandler) {
+>   this.element = element;
+>   this.canClose = canClose;
+>   this.closeHandler = function () { if (closeHandler) closeHandler() };
+> }</code></pre>
+
 ## Superscripts, subscripts, and small text
