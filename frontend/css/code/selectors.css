@@ -1,0 +1,189 @@
+/* variable definition */
+:root {
+    /* Palette */
+    --davys-grey: #494947ff;
+    --white: #ffffffff;
+    --bright-yellow-crayola: #fbb13cff;
+    --cinnabar: #f24236ff;
+    --tufts-blue: #2892d7ff;
+    --cerulean-crayola: #00a7e1ff;
+    --glaucous: #7180b9ff;
+    --wisteria: #b497d6ff;
+    --wisteria-2: #c490d1ff;
+    /* We can also declare other types of variables (sizes, fonts, etc) */
+}
+
+/* 
+    Description: This body selector affects all the content inside the body tag
+    unless there are other more specific selectors that affects inner tags (children)
+    Selector: type
+*/
+body {
+    background: var(--white);
+    margin: 0;
+    padding: 0;
+    color: var(--davys-grey);
+}
+
+/* 
+    Description: This header selector affects all the content inside the header tag
+    unless there are other more specific selectors that affects inner tags (children)
+    Selector: type 
+*/
+header {
+    overflow: hidden;
+    text-align: center;
+    background: var(--wisteria-2);
+    color: var(--white);
+    font-size: 30px;
+    margin-bottom: 40px;
+}
+
+/* 
+    Description: This h1 selector affects all the content inside the h1 tag
+    Selector: type 
+*/
+h1 {
+    color: var(--white);
+    font-family: 'Helvetica Neue', sans-serif;
+    font-size: 60px;
+    font-weight: bold;
+    letter-spacing: -1px;
+    line-height: 1;
+    text-align: center; 
+}
+
+/* 
+    Description: This menu id selector would affect all the content inside the tag
+    with id menu, but we specified to affect the ul children of the id menu tag
+    Selector: id type 
+*/
+#menu ul {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    list-style-type: none;
+    background-color: var(--davys-grey);
+}
+
+/* 
+    Description: This menu id selector would affect all the content inside the tag
+    with id menu, but we specified to affect the il children of the id menu tag
+    Selector: id type 
+*/
+#menu li {
+    display: inline;
+}
+
+/* 
+    Description: This menu id selector would affect all the content inside the tag
+    with id menu, but we specified to affect the a children of the id menu tag
+    Selector: id type 
+*/
+#menu a {
+    color: var(--white);
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* 
+    Description: This menu id selector would affect all the content inside the tag
+    with id menu, but we specified to affect the pseudo-class of the a children
+    of the id menu tag
+    Selector: id type:pseudo-class
+*/
+#menu a:hover {
+    background-color: var(--wisteria-2);
+}
+
+
+/* 
+    Description: This main selector affects all the content inside the main tag
+    unless there are other more specific selectors that affects inner tags (children)
+    Selector: type 
+*/
+main {
+    margin: auto;
+    border-radius: 25px;
+    border: 2px solid var(--wisteria-2);
+    padding: 20px;
+    width: 700px;
+    height: 580px;
+    word-wrap: break-word;
+}
+
+main p {
+    color: #222;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 24px;
+    margin: 0 0 14px;
+}
+
+/* 
+    Description: This welcome id selector affects all the content inside the tag
+    with a welcome id, unless there are other more specific selectors that
+    affects inner tags (children)
+    Selector: id 
+*/
+#welcome {
+    margin-bottom: 60px;
+    border-bottom: 5px solid var(--wisteria);
+}
+
+/* 
+    Description: This welcome id selector would affect all the content inside the tag
+    with a welcome id, but a type is specified, so only affects the p children of the
+    welcome id tag
+    Selector: id type
+*/
+#welcome p {
+    color: var(--davys-grey);
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-weight: 10;
+    margin-top: -50px;
+    text-align: center;
+}
+
+/* 
+    Description: This greetings class selector affects the content inside the tag
+    with a greetings class, unless there are other more specific selectors that
+    affects inner tags (children)
+    Selector: class
+*/
+.greetings {
+    font-size: 64px;
+    color: var(--wisteria);
+    text-align: center;
+    text-transform: uppercase;
+}
+
+/* 
+    Description: This article-header class selector affects the content inside the tag
+    with a article-header class, unless there are other more specific selectors that
+    affects inner tags (children)
+    Selector: class
+*/
+.article-header {
+    color: var(--wisteria-2);
+    font-family: 'Open Sans', sans-serif;
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 32px;
+    margin: 0 0 14px;
+}
+
+/* 
+    Description: This footer selector affects all the content inside the footer tag
+    unless there are other more specific selectors that affects inner tags (children)
+    Selector: type 
+*/
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: var(--wisteria-2);
+    color: var(--white);
+    text-align: center;
+}
