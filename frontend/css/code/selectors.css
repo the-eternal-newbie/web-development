@@ -1,12 +1,12 @@
 /* variable definition */
 :root {
     /* Palette */
-    --white: #ffffffff;
     --davys-grey: #494947ff;
-    --cinnabar: #f24236ff;
+    --white: #ffffffff;
     --bright-yellow-crayola: #fbb13cff;
-    --cerulean-crayola: #00a7e1ff;
+    --cinnabar: #f24236ff;
     --tufts-blue: #2892d7ff;
+    --cerulean-crayola: #00a7e1ff;
     --glaucous: #7180b9ff;
     --wisteria: #b497d6ff;
     --wisteria-2: #c490d1ff;
@@ -22,7 +22,7 @@ body {
 header {
     overflow: hidden;
     text-align: center;
-    background: var(--cerulean-crayola);
+    background: var(--wisteria-2);
     color: var(--white);
     font-size: 30px;
     margin-bottom: 40px;
@@ -57,21 +57,40 @@ h1 {
 }
 
 #menu a:hover {
-    background-color: var(--bright-yellow-crayola);
+    background-color: var(--wisteria-2);
 }
 
 main {
     margin: auto;
     border-radius: 25px;
-    border: 2px solid var(--cinnabar);
+    border: 2px solid var(--wisteria-2);
     padding: 20px;
     width: 700px;
     height: 580px;
     word-wrap: break-word;
 }
 
-main h2 {
-    color: #F90B6D;
+#welcome {
+    margin-bottom: 60px;
+    border-bottom: 5px solid var(--wisteria);
+}
+#welcome p {
+    color: var(--davys-grey);
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-weight: 10;
+    margin-top: -50px;
+    text-align: center;
+}
+
+.greetings {
+    font-size: 64px;
+    color: var(--wisteria);
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.article-header {
+    color: var(--wisteria-2);
     font-family: 'Open Sans', sans-serif;
     font-size: 24px;
     font-weight: 300;
@@ -94,7 +113,7 @@ footer {
     position: fixed;
     bottom: 0;
     width: 100%;
-    background-color: var(--tufts-blue);
+    background-color: var(--wisteria-2);
     color: var(--white);
     text-align: center;
 }
