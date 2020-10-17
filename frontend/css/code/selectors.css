@@ -1,0 +1,100 @@
+/* variable definition */
+:root {
+    /* Palette */
+    --white: #ffffffff;
+    --davys-grey: #494947ff;
+    --cinnabar: #f24236ff;
+    --bright-yellow-crayola: #fbb13cff;
+    --cerulean-crayola: #00a7e1ff;
+    --tufts-blue: #2892d7ff;
+    --glaucous: #7180b9ff;
+    --wisteria: #b497d6ff;
+    --wisteria-2: #c490d1ff;
+}
+
+body {
+    background: var(--white);
+    margin: 0;
+    padding: 0;
+    color: var(--davys-grey);
+}
+
+header {
+    overflow: hidden;
+    text-align: center;
+    background: var(--cerulean-crayola);
+    color: var(--white);
+    font-size: 30px;
+    margin-bottom: 40px;
+}
+
+h1 {
+    color: var(--white);
+    font-family: 'Helvetica Neue', sans-serif;
+    font-size: 60px;
+    font-weight: bold;
+    letter-spacing: -1px;
+    line-height: 1;
+    text-align: center; 
+}
+
+#menu ul {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    list-style-type: none;
+    background-color: var(--davys-grey);
+}
+
+#menu li {
+    display: inline;
+}
+
+#menu a {
+    color: var(--white);
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+#menu a:hover {
+    background-color: var(--bright-yellow-crayola);
+}
+
+main {
+    margin: auto;
+    border-radius: 25px;
+    border: 2px solid var(--cinnabar);
+    padding: 20px;
+    width: 700px;
+    height: 580px;
+    word-wrap: break-word;
+}
+
+main h2 {
+    color: #F90B6D;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 32px;
+    margin: 0 0 14px;
+}
+
+main p {
+    color: #222;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 24px;
+    margin: 0 0 14px;
+}
+
+/* # is for IDs */
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: var(--tufts-blue);
+    color: var(--white);
+    text-align: center;
+}
