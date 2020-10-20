@@ -7,6 +7,9 @@
 ```js
 var firstName = 'John';
 ```
+### const
+### let
+### Variable mutation
 
 ## Data types
 
@@ -15,11 +18,24 @@ var firstName = 'John';
 ### Boolean
 ### Undefined
 ### Null
-
-## Variable mutation
-## Type coercion
+### Type coercion
 
 ## Operators
 
 ### Ternary operator
 ### Switch statements
+
+## Truthy and Falsy values
+
+## Functions
+
+### Statements & expressions
+
+## Arrays
+
+## Objects
+
+### Properties
+### Methods
+
+## Loops & iteration
