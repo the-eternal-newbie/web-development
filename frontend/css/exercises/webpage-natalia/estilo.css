@@ -1,10 +1,33 @@
 /*ESTILO DE PÁGINA PRINCIPAL*/
-body.frontend{
-    background:#FB6060;
+
+/* the frontend class is not used in another element, so the selector can be just a class selector like this: */
+/* .frontend { } */
+body.frontend {
+    background: #FB6060;
     margin: 0;
     padding: 0;
     font-weight: 500;
 }
+
+/* a single ul style can be applied to both li elements,
+therefore the different styles for each li element can be specified in their selectors like this: */
+/* .links {
+    list-style-type: none;
+    margin: 0;
+    padding: 150px;
+    overflow: hidden;
+}
+.links li {
+    text-align: center;
+    font-family: 'Cabin', sans-serif;
+    font-size: 60px;
+}
+.one {
+    background-color: #FC8888;
+}
+.two {
+    background-color: #FC9C9C;
+} */
 
 ul.first {
     list-style-type: none;
@@ -14,11 +37,10 @@ ul.first {
     background-color: #FC8888;
 }
 
-li.one{
+li.one {
     text-align: center;
-    font-family: 'Cabin',sans-serif;
+    font-family: 'Cabin', sans-serif;
     font-size: 60px;
-    
 }
 
 ul.second {
@@ -27,33 +49,35 @@ ul.second {
     padding: 120px;
     overflow: hidden;
     background-color: #FC9C9C;
-  }
- 
-li.two{
+}
+
+li.two {
     text-align: center;
-    font-family: 'Cabin',sans-serif;
+    font-family: 'Cabin', sans-serif;
     font-size: 60px;
 }
+
 li a {
     display: block;
     color: #FC3636;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-  }
-  
-  li a:hover:not(.active) {
-    background-color: #9C9CD3;
-  }
-.active{
-background-color: #9C9CD3;
 }
 
-h1{
+li a:hover:not(.active) {
+    background-color: #9C9CD3;
+}
+
+.active {
+    background-color: #9C9CD3;
+}
+
+h1 {
     text-align: center;
     background: #FB6060;
     color: black;
-    font-family: 'Cabin',sans-serif;
+    font-family: 'Cabin', sans-serif;
     font-weight: 500;
     font-size: 90px;
     padding-top: 200px;
@@ -65,24 +89,24 @@ h1{
 
 
 
-footer{
+footer {
     text-align: center;
-    font-family: 'Cabin',sans-serif;
+    font-family: 'Cabin', sans-serif;
     background-color: #FDAFAF;
     font-weight: 100;
     font-size: 25px;
-    padding:50px;
+    padding: 50px;
 }
 
 /*ESTILO DE ABOUT_ME*/
-body.about{
+body.about {
     background: #FC8888;
     margin: 0;
     padding: 0;
 
 }
 
-p.about{
+p.about {
     text-align: left;
     font-family: 'Epilogue', sans-serif;
     font-size: 50px;
@@ -90,28 +114,36 @@ p.about{
     background-color: #FD5E5E;
     padding: 30px 30px 30px 30px;
     margin-right: 400px;
-  
+
 
 }
 
-img.about{
-   float:right;
-   background-position: right;
-   margin-right: 900px;
-   margin-bottom: 150px;
-   vertical-align: middle;
+img.about {
+    float: right;
+    background-position: right;
+    margin-right: 900px;
+    margin-bottom: 150px;
+    vertical-align: middle;
 }
-ul.about{
+
+/* for aligning & resizing the twitter logo */
+.twitter {
+    margin-left: 10px;
+    max-width: 50px;
+    max-height: 50px;
+}
+
+ul.about {
     list-style-type: none;
     text-align: left;
     color: black;
 }
 
-li.about{
+li.about {
     text-align: left;
-    font-family: 'Epilogue',sans-serif;
-    color:black;
-    background-color:  #FD5D5D;
+    font-family: 'Epilogue', sans-serif;
+    color: black;
+    background-color: #FD5D5D;
     font-size: 40px;
     padding: 30px 30px 30px 30px;
     margin-right: 450px;
@@ -119,7 +151,7 @@ li.about{
 
 }
 
-li.about:hover:not(.active){
+li.about:hover:not(.active) {
     text-align: left;
     background-color: #FD2121;
 }
@@ -130,20 +162,20 @@ li.about a {
     text-align: left;
     padding: 14px 16px;
     text-decoration: none;
-  }
+}
 
 
-footer.about:hover:not(.active){
+footer.about:hover:not(.active) {
     text-align: center;
-    font-family: 'Cabin',sans-serif;
+    font-family: 'Cabin', sans-serif;
     color: black;
     background-color: #A4A4F4;
     font-weight: 100;
     font-size: 35px;
-    padding:0;
+    padding: 0;
 
 }
 
-ul.footer{
-    list-style-type:none;
+ul.footer {
+    list-style-type: none;
 }
