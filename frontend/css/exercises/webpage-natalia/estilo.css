@@ -1,0 +1,149 @@
+/*ESTILO DE PÁGINA PRINCIPAL*/
+body.frontend{
+    background:#FB6060;
+    margin: 0;
+    padding: 0;
+    font-weight: 500;
+}
+
+ul.first {
+    list-style-type: none;
+    margin: 0;
+    padding: 150px;
+    overflow: hidden;
+    background-color: #FC8888;
+}
+
+li.one{
+    text-align: center;
+    font-family: 'Cabin',sans-serif;
+    font-size: 60px;
+    
+}
+
+ul.second {
+    list-style-type: none;
+    margin: 0;
+    padding: 120px;
+    overflow: hidden;
+    background-color: #FC9C9C;
+  }
+ 
+li.two{
+    text-align: center;
+    font-family: 'Cabin',sans-serif;
+    font-size: 60px;
+}
+li a {
+    display: block;
+    color: #FC3636;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover:not(.active) {
+    background-color: #9C9CD3;
+  }
+.active{
+background-color: #9C9CD3;
+}
+
+h1{
+    text-align: center;
+    background: #FB6060;
+    color: black;
+    font-family: 'Cabin',sans-serif;
+    font-weight: 500;
+    font-size: 90px;
+    padding-top: 200px;
+    padding-bottom: 200px;
+    padding-right: 200px;
+    padding-left: 200px;
+
+}
+
+
+
+footer{
+    text-align: center;
+    font-family: 'Cabin',sans-serif;
+    background-color: #FDAFAF;
+    font-weight: 100;
+    font-size: 25px;
+    padding:50px;
+}
+
+/*ESTILO DE ABOUT_ME*/
+body.about{
+    background: #FC8888;
+    margin: 0;
+    padding: 0;
+
+}
+
+p.about{
+    text-align: left;
+    font-family: 'Epilogue', sans-serif;
+    font-size: 50px;
+    color: black;
+    background-color: #FD5E5E;
+    padding: 30px 30px 30px 30px;
+    margin-right: 400px;
+  
+
+}
+
+img.about{
+   float:right;
+   background-position: right;
+   margin-right: 900px;
+   margin-bottom: 150px;
+   vertical-align: middle;
+}
+ul.about{
+    list-style-type: none;
+    text-align: left;
+    color: black;
+}
+
+li.about{
+    text-align: left;
+    font-family: 'Epilogue',sans-serif;
+    color:black;
+    background-color:  #FD5D5D;
+    font-size: 40px;
+    padding: 30px 30px 30px 30px;
+    margin-right: 450px;
+    margin-left: 50px;
+
+}
+
+li.about:hover:not(.active){
+    text-align: left;
+    background-color: #FD2121;
+}
+
+li.about a {
+    display: block;
+    color: black;
+    text-align: left;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+
+footer.about:hover:not(.active){
+    text-align: center;
+    font-family: 'Cabin',sans-serif;
+    color: black;
+    background-color: #A4A4F4;
+    font-weight: 100;
+    font-size: 35px;
+    padding:0;
+
+}
+
+ul.footer{
+    list-style-type:none;
+}
